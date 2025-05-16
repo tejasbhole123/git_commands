@@ -28,3 +28,4 @@ git checkout -- <file>        # Discard local changes
 git reset --soft HEAD~1       # Undo last commit (keep changes)
 git reset --hard HEAD~1       # Undo last commit (delete changes)
 git clean -f                  # Remove untracked files
+git reflog                    # Recovering deleted commits
